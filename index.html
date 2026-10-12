@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<meta name="description" content="Franelas de calidad — mira el video y escríbenos por WhatsApp si te interesa.">
+<meta property="og:title" content="Franelas · Mira el video">
+<meta property="og:description" content="Franelas de calidad. Mira el video y escríbenos por WhatsApp si te interesa.">
+<meta property="og:image" content="poster.jpg">
+<meta property="og:type" content="video.other">
+<title>Franelas · Mira el video</title>
+<style>
+  :root{
+    --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e;
+    --wa:#25d366; --wa-dark:#128c7e; --accent:#58a6ff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:24px 16px 32px}
+  .wrap{max-width:480px;width:100%}
+  .logo{margin:8px 0 20px;text-align:center}
+  .logo span{font-size:26px;font-weight:800;letter-spacing:.35em;color:#fff}
+  .logo small{display:block;margin-top:6px;color:var(--muted);font-size:12px;letter-spacing:.12em}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+  video{display:block;width:100%;aspect-ratio:16/9;background:#000}
+  .copy{padding:16px 16px 4px}
+  .copy h1{font-size:18px;font-weight:700;margin-bottom:6px}
+  .copy p{color:var(--muted);font-size:14px;line-height:1.5}
+  .cta{display:block;margin:16px;background:var(--wa);color:#0b141a;text-decoration:none;text-align:center;padding:16px 20px;border-radius:14px;font-weight:800;font-size:16px;letter-spacing:.02em;transition:transform .08s ease,background .2s}
+  .cta:active{transform:scale(.97)}
+  .cta small{display:block;font-weight:500;font-size:12px;color:rgba(11,20,26,.75);margin-top:2px}
+  footer{margin-top:22px;text-align:center;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="logo">
+      <span>FRANELAS</span>
+      <small>CALIDAD · COMODIDAD · TU ESTILO</small>
+    </header>
+
+    <div class="card">
+      <video controls playsinline preload="none" poster="poster.jpg">
+        <source src="video/franelas-a1.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+      </video>
+      <div class="copy">
+        <h1>Mira el video de nuestras franelas</h1>
+        <p>¿Te gustó alguna? Escríbenos por WhatsApp y te contamos precios, tallas y envío. ¡Respondemos rápido!</p>
+      </div>
+      <a class="cta" href="https://wa.me/584246250431?text=Hola!%20Vi%20tus%20franelas%20por%20el%20video%20y%20me%20interesan%20%F0%9F%98%84" target="_blank" rel="noopener">
+        💬 Me interesan las franelas
+        <small>Escríbenos por WhatsApp</small>
+      </a>
+    </div>
+
+    <footer>© Franelas · Escríbenos por WhatsApp si te gusta alguna</footer>
+  </main>
+</body>
+</html>
